@@ -30,9 +30,9 @@ Namespace Q142554
 			Me.colName = New DevExpress.XtraTreeList.Columns.TreeListColumn()
 			Me.colPriority = New DevExpress.XtraTreeList.Columns.TreeListColumn()
 			Me.table1BindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.treeListDataBaseDataSet = New Q142554.TreeListDataBaseDataSet()
-			Me.table1TableAdapter = New Q142554.TreeListDataBaseDataSetTableAdapters.Table1TableAdapter()
-			Me.panelControl1 = New DevExpress.XtraEditors.PanelControl()
+            Me.treeListDataBaseDataSet = New TreeListDataBaseDataSet()
+            Me.table1TableAdapter = New TreeListDataBaseDataSetTableAdapters.Table1TableAdapter()
+            Me.panelControl1 = New DevExpress.XtraEditors.PanelControl()
 			Me.simpleButton2 = New DevExpress.XtraEditors.SimpleButton()
 			Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
 			Me.panelControl2 = New DevExpress.XtraEditors.PanelControl()
@@ -167,8 +167,8 @@ Namespace Q142554
 		Private WithEvents treeList1 As DevExpress.XtraTreeList.TreeList
 		Private treeListDataBaseDataSet As TreeListDataBaseDataSet
 		Private table1BindingSource As System.Windows.Forms.BindingSource
-		Private table1TableAdapter As Q142554.TreeListDataBaseDataSetTableAdapters.Table1TableAdapter
-		Private colName As DevExpress.XtraTreeList.Columns.TreeListColumn
+        Private table1TableAdapter As TreeListDataBaseDataSetTableAdapters.Table1TableAdapter
+        Private colName As DevExpress.XtraTreeList.Columns.TreeListColumn
 		Private colPriority As DevExpress.XtraTreeList.Columns.TreeListColumn
 		Private panelControl1 As DevExpress.XtraEditors.PanelControl
 		Private WithEvents simpleButton2 As DevExpress.XtraEditors.SimpleButton
