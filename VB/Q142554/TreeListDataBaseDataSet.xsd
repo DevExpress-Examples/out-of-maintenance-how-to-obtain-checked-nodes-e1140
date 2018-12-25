@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TreeListDataBaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="TreeListDataBaseConnectionString (Settings)" PropertyReference="ApplicationSettings.Q142554.Properties.Settings.GlobalReference.Default.TreeListDataBaseConnectionString" Provider="System.Data.OleDb">
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TreeListDataBaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="TreeListDataBaseConnectionString (Settings)" PropertyReference="ApplicationSettings.Settings.GlobalReference.Default.TreeListDataBaseConnectionString" Provider="System.Data.OleDb">
           </Connection>
         </Connections>
         <Tables>
