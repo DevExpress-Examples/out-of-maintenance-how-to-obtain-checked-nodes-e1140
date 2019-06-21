@@ -27,17 +27,12 @@ namespace Q142554 {
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.colName = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colPriority = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.table1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.treeListDataBaseDataSet = new Q142554.TreeListDataBaseDataSet();
-            this.table1TableAdapter = new Q142554.TreeListDataBaseDataSetTableAdapters.Table1TableAdapter();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeListDataBaseDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -50,7 +45,6 @@ namespace Q142554 {
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.colName,
             this.colPriority});
-            this.treeList1.DataSource = this.table1BindingSource;
             this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeList1.Location = new System.Drawing.Point(0, 0);
             this.treeList1.Name = "treeList1";
@@ -79,20 +73,6 @@ namespace Q142554 {
             this.colPriority.Visible = true;
             this.colPriority.VisibleIndex = 1;
             this.colPriority.Width = 197;
-            // 
-            // table1BindingSource
-            // 
-            this.table1BindingSource.DataMember = "Table1";
-            this.table1BindingSource.DataSource = this.treeListDataBaseDataSet;
-            // 
-            // treeListDataBaseDataSet
-            // 
-            this.treeListDataBaseDataSet.DataSetName = "TreeListDataBaseDataSet";
-            this.treeListDataBaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // table1TableAdapter
-            // 
-            this.table1TableAdapter.ClearBeforeFill = true;
             // 
             // panelControl1
             // 
@@ -151,8 +131,6 @@ namespace Q142554 {
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.table1BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeListDataBaseDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
@@ -165,9 +143,6 @@ namespace Q142554 {
         #endregion
 
         private DevExpress.XtraTreeList.TreeList treeList1;
-        private TreeListDataBaseDataSet treeListDataBaseDataSet;
-        private System.Windows.Forms.BindingSource table1BindingSource;
-        private Q142554.TreeListDataBaseDataSetTableAdapters.Table1TableAdapter table1TableAdapter;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colName;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colPriority;
         private DevExpress.XtraEditors.PanelControl panelControl1;
