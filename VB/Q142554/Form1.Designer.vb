@@ -47,14 +47,18 @@
 			Me.treeList1.Location = New System.Drawing.Point(0, 0)
 			Me.treeList1.Name = "treeList1"
 			Me.treeList1.OptionsBehavior.AllowIndeterminateCheckState = True
-            Me.treeList1.OptionsView.ShowCheckBoxes = True
-            Me.treeList1.ParentFieldName = "ID_2"
+			Me.treeList1.OptionsView.ShowCheckBoxes = True
+			Me.treeList1.ParentFieldName = "ID_2"
 			Me.treeList1.Size = New System.Drawing.Size(373, 398)
-            Me.treeList1.TabIndex = 0
-            ' 
-            ' colName
-            ' 
-            Me.colName.Caption = "Name"
+			Me.treeList1.TabIndex = 0
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.treeList1.BeforeCheckNode += new DevExpress.XtraTreeList.CheckNodeEventHandler(this.OnTreeListBeforeCheckNode);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.treeList1.AfterCheckNode += new DevExpress.XtraTreeList.NodeEventHandler(this.OnTreeListAfterCheckNode);
+			' 
+			' colName
+			' 
+			Me.colName.Caption = "Name"
 			Me.colName.FieldName = "Name"
 			Me.colName.Name = "colName"
 			Me.colName.Visible = True
@@ -86,19 +90,23 @@
 			Me.simpleButton2.Name = "simpleButton2"
 			Me.simpleButton2.Size = New System.Drawing.Size(134, 23)
 			Me.simpleButton2.TabIndex = 1
-            Me.simpleButton2.Text = "Show Selected Children"
-            ' 
-            ' simpleButton1
-            ' 
-            Me.simpleButton1.Location = New System.Drawing.Point(5, 5)
+			Me.simpleButton2.Text = "Show Selected Children"
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
+			' 
+			' simpleButton1
+			' 
+			Me.simpleButton1.Location = New System.Drawing.Point(5, 5)
 			Me.simpleButton1.Name = "simpleButton1"
 			Me.simpleButton1.Size = New System.Drawing.Size(119, 23)
 			Me.simpleButton1.TabIndex = 0
-            Me.simpleButton1.Text = "Show Selected Nodes"
-            ' 
-            ' panelControl2
-            ' 
-            Me.panelControl2.Controls.Add(Me.listBoxControl1)
+			Me.simpleButton1.Text = "Show Selected Nodes"
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+			' 
+			' panelControl2
+			' 
+			Me.panelControl2.Controls.Add(Me.listBoxControl1)
 			Me.panelControl2.Dock = System.Windows.Forms.DockStyle.Right
 			Me.panelControl2.Location = New System.Drawing.Point(373, 0)
 			Me.panelControl2.Name = "panelControl2"

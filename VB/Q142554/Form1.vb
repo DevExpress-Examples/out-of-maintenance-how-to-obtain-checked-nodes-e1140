@@ -132,7 +132,7 @@ Namespace Q142554
 		End Property
 		Public Overrides Sub Execute(ByVal node As TreeListNode)
 			If node.CheckState = CheckState.Checked Then
-				checkedNodes_Renamed.Add(DirectCast(node(node.TreeList.Columns(0)), String))
+				checkedNodes_Renamed.Add(CStr(node(node.TreeList.Columns(0))))
 			End If
 		End Sub
 	End Class
